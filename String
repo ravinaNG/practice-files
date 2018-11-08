@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class String
+{
+	public static void main(String[] arg)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println();
+		String string = sc.next();
+		int bain = string.length();
+		System.out.println();
+		String str = sc.next();
+		int Main = str.length();
+		for(i=0; i<=bain; i++)
+		{
+			System.out.println(i);	
+		}	
+	}
+}
